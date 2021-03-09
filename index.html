@@ -11,7 +11,9 @@
                     <input type="number" id="principal" name="principal"><br/>
                     </br>
                     <label for="rate">Interest Rate</label>
-                    <input type="range" id="rate" name="rate" value="3.5" min="1" max="30" oninput="this.nextElementSibling.value = this.value"><br/>
+                    <input type="range" id="rate" name="rate" value="3.5" min="1" max="30" onchange="updateTextInput(this.value);>
+                    <input type="text" id="textInput" value="">
+                    <br/>
                     </br>
                     <label for="years">No. of Years</label>
                     <select type="number" id="years" name="years"><br/>
