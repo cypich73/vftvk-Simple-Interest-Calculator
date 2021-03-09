@@ -6,11 +6,17 @@
     <body>
         <div>
             <h1>Simple Interest Calculator</h1>
-                Amount <input type="number"  id="principal">  <br/>
-                Rate <input type="number"  id="rate">  <br/>
-                No. of Years <input type="number"  id="years">  <br/>
-                Interest : <span id="result"></span><br>
-                <button onclick="compute()">Compute</button>
+                <form>
+                    <label for="principal">Amount </label><br/>
+                    <input type="number" id="principal" name="principal"><br/>
+                    <label for="rate">Rate</label><br/>
+                    <input type="number" id="rate" name="rate"><br/>
+                    <label for="years">No. of Years</label><br/>
+                    <input type="number" id="years" name="years"><br/>
+                    <label for="result">Interest</label>
+                    <span id="result"></span><br>
+                    <button onclick="compute()">Compute</button>
+                </form>
         </div>
     </body>
 </html>
