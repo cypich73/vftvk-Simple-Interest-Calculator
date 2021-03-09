@@ -8,23 +8,27 @@
 body {
     padding-top: 10px;
     background-color: #000;
-    border-radius: 25px;
+
 }
 
 h1 {
-    alignment: central;
+    alignment: center;
     padding-top: 30px;
     padding-bottom: 25px;
     color: #696969;
     }
 
 div {
-    font-family: Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
     background-color: #fff;
     margin: auto;
     width: 500px;
     padding: 10px;
-    
+    border-radius: 25px;
+}
+
+form {
+    padding-left: 20px;
 }
 
 
