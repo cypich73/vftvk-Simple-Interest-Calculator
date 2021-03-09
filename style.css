@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #000;
 }
 body {
     width: 500px;
+    color: #000;
     }
 h1 {
-    color:#gray;
+    color:#6969669;
     }
 
 
