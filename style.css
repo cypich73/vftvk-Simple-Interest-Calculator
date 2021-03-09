@@ -32,8 +32,14 @@ form {
     padding-left: 75px;
 }
 
-input {
-    margin-left: 100px;
+input #principal {
+    margin-left: 80px;
 }
 
+input #rate {
+    margin-left: 60px;
+}
 
+select #years {
+    margin-left: 65px;
+}
