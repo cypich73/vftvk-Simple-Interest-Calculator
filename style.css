@@ -37,14 +37,11 @@ form {
 }
 
 #rate {
-    margin-left: 40px;
-}
-
-#years {
     margin-left: 45px;
 }
 
-button {
-    margin-left: 5px;
-    margin-right: 5px;
+#years {
+    margin-left: 50px;
 }
+
+
