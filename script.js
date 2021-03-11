@@ -5,7 +5,7 @@ function compute() {
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
 
-    document.write("<span>If you deposit</span>");
+    document.write("<p>If you deposit javascript</p>");
     return false;
 }
 
