@@ -1,4 +1,5 @@
 function compute() {
+    event.preventDefault();
     p = document.getElementById("principal").value;
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
