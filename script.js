@@ -6,11 +6,11 @@ function compute() {
     document.getElementById("result").innerHTML = p * r/100 * y;
 
     document.write("<p>If you deposit javascript</p>");
-    return false;
+    //return false;
 }
 
-function updateTextInput(val) {
-          document.getElementById('textInput').value=val; 
-        }
+// function updateTextInput(val) {
+//          document.getElementById('textInput').value=val; 
+//        }
 
         
