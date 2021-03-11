@@ -1,9 +1,9 @@
 function compute() {
     event.preventDefault();
-    p = document.getElementById("principal").value;
-    r = document.getElementById("rangeInput").value;
-    y = document.getElementById("years").value;
-    document.getElementById("result").textContent = p * r/100 * y;
+    p = document.getElementById("principal").innerHTML;
+    r = document.getElementById("rangeInput").innerHTML;
+    y = document.getElementById("years").innerHTML;
+    document.getElementById("result").innerHTML = p * r/100 * y;
     return false;
 }
 
