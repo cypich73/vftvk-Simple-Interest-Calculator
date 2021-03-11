@@ -4,10 +4,13 @@ function compute() {
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
+
+    document.write("<span>If you deposit</span>");
     return false;
 }
 
 function updateTextInput(val) {
           document.getElementById('textInput').value=val; 
         }
+
         
