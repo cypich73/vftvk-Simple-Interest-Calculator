@@ -2,7 +2,7 @@ function compute() {
     event.preventDefault();
 
     document.getElementById("principal_text").innerHTML="If you deposit ";
-    document.getElementById("principal").innerHTML= p;
+    document.write (p);
     document.getElementById("principal_comma").innerHTML=",";
 
     p = document.getElementById("principal").value;
