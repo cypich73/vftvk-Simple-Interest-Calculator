@@ -3,7 +3,7 @@ function compute() {
 
     document.getElementById("principal_text").innerHTML="If you deposit ";
     var p = document.getElementById("principal").value;
-    //document.getElementById("principal").innerHTML= p;
+    document.getElementById("principal").innerHTML= p;
     document.getElementById("principal_comma").innerHTML=",";
 
     
