@@ -1,7 +1,7 @@
 function compute() {
     event.preventDefault();
 
-    document.getElementById("principal_text").innerHTML="If you deposit " + p;
+    
     
     document.getElementById("principal_comma").innerHTML=",";
 
@@ -22,7 +22,7 @@ function compute() {
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
 
-    
+    document.getElementById("principal_text").innerHTML="If you deposit " + p;
 
     //return false;
 }
