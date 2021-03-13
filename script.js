@@ -11,7 +11,7 @@ function compute() {
 
     z = 2020;
     x = parseInt(y)
-    document.getElementById("result_years").innerHTML = z;
+    document.getElementById("result_years").innerHTML = z+x;
 
     //var yy = paresInt(y);
     //var zz = x + y;
