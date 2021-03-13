@@ -43,5 +43,8 @@ form {
 #years {
     margin-left: 50px;
 }
-
+button {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
