@@ -8,7 +8,7 @@ function compute() {
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
 
-    var x = 2020 + y;
+    var x = parseInt("2020") + y;
 
     document.getElementById("principal_text").innerHTML="If you deposit " + p + ",";
     document.getElementById("rangeInput_text").innerHTML="at an interest rate of " + r + "%.";
