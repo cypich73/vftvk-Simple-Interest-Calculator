@@ -22,4 +22,14 @@ function compute() {
 
 }
 
+function checkNegativeValue()
+{
+  var value = parseFloat(document.getElementById("principle").value);
+  if(value<0)
+  {
+   alert("Negative Value is not allowed");
+   return false;
+  }
+}
+
         
