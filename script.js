@@ -7,7 +7,6 @@ function compute() {
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
-    document.getElementById("result_years").innerHTML = y + 2020;
 
     x = 2020 + y
 
