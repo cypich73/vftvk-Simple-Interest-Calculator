@@ -3,12 +3,12 @@ function compute() {
 
     document.getElementById("principal_text").innerHTML="If you deposit ";
     
-    document.getElementById("principal").innerHTML= p;
+    //document.getElementById("principal").innerHTML= p;
     document.getElementById("principal_comma").innerHTML=",";
 
     document.getElementById("rangeInput_text").innerHTML="at an interest rate of ";
     
-    document.getElementById("rangeInput").innerHTML= r;
+    //document.getElementById("rangeInput").innerHTML= r;
     document.getElementById("rangeInput_comma").innerHTML="%.";
 
     document.getElementById("result_text").innerHTML="You will receive the amount of ";
