@@ -13,8 +13,6 @@ function compute() {
     x = parseInt(y)
     document.getElementById("result_years").innerHTML = z+x;
 
-    //var yy = paresInt(y);
-    //var zz = x + y;
 
     document.getElementById("principal_text").innerHTML="If you deposit " + p + ",";
     document.getElementById("rangeInput_text").innerHTML="at an interest rate of " + r + "%.";
@@ -23,9 +21,5 @@ function compute() {
     document.getElementById("years_text").innerHTML="in the year ";
 
 }
-
-// function updateTextInput(val) {
-//          document.getElementById('textInput').value=val; 
-//        }
 
         
