@@ -3,11 +3,9 @@ function compute() {
 
     document.getElementById("principal_text").innerHTML="If you deposit ";
     
-    //document.getElementById("principal").innerHTML= p;
     document.getElementById("principal_comma").innerHTML=",";
 
     document.getElementById("rangeInput_text").innerHTML="at an interest rate of ";
-    
     //document.getElementById("rangeInput").innerHTML= r;
     document.getElementById("rangeInput_comma").innerHTML="%.";
 
@@ -23,6 +21,8 @@ function compute() {
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
+
+    document.getElementById("principal").innerHTML= p;
 
     //return false;
 }
