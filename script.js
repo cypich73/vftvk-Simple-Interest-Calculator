@@ -10,7 +10,8 @@ function compute() {
     
 
     z = 2020;
-    document.getElementById("result_years").innerHTML = z + y;
+    x = parseInt(y)
+    document.getElementById("result_years").innerHTML = z;
 
     //var yy = paresInt(y);
     //var zz = x + y;
