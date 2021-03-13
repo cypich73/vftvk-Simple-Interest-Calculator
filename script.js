@@ -16,13 +16,13 @@ function compute() {
     document.getElementById("years_text").innerHTML="in the year ";
     
 
-    
+    document.getElementById("principal").innerHTML= p;
     p = document.getElementById("principal").value;
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
 
-    document.getElementById("principal").innerHTML= p;
+    
 
     //return false;
 }
