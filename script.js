@@ -10,6 +10,7 @@ function compute() {
 
     var z = "2020";
     var x = parseInt(z);
+    var yy = paresInt(y);
     var zz = x + y;
 
     document.getElementById("principal_text").innerHTML="If you deposit " + p + ",";
