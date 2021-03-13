@@ -1,7 +1,7 @@
 function compute() {
     event.preventDefault();
 
-    document.getElementById("principal_text").innerHTML="If you deposit ";
+    document.getElementById("principal_text").innerHTML="If you deposit " + p;
     
     document.getElementById("principal_comma").innerHTML=",";
 
@@ -16,7 +16,7 @@ function compute() {
     document.getElementById("years_text").innerHTML="in the year ";
     
 
-    document.getElementById("principal").innerHTML= p;
+    //document.getElementById("principal").innerHTML= p;
     p = document.getElementById("principal").value;
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
