@@ -9,10 +9,8 @@ function compute() {
     document.getElementById("result").innerHTML = p * r/100 * y;
     
 
-    z = "2020";
-    x = parseInt(z);
-    yy = paresInt(y);
-    document.getElementById("result_years").innerHTML = x + yy;
+    z = 2020;
+    document.getElementById("result_years").innerHTML = z + y;
 
     //var yy = paresInt(y);
     //var zz = x + y;
