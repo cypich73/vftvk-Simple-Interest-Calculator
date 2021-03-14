@@ -24,8 +24,8 @@ function compute() {
 
 function checkNegativeValue()
 {
-  var value = parseFloat(document.getElementById("principal").value);
-  if(value<0)
+  //var value = parseFloat(document.getElementById("principal").value);
+  if(p<0)
   {
    alert("Negative Value is not allowed");
    return false;
