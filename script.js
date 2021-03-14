@@ -32,4 +32,8 @@ function checkNegativeValue()
   }
 }
 
+function bgColor() {
+    document.getElementById("principal").style.backgroundColor = "yellow";
+}
+
         
