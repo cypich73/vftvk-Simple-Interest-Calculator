@@ -1,18 +1,14 @@
 function compute() {
     event.preventDefault();
-
-    
     
     p = document.getElementById("principal").value;
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
-    
 
     z = 2020;
     x = parseInt(y)
     document.getElementById("result_years").innerHTML = z+x;
-
 
     document.getElementById("principal_text").innerHTML="If you deposit " + p + ",";
     document.getElementById("rangeInput_text").innerHTML="at an interest rate of " + r + "%.";
@@ -33,7 +29,7 @@ function checkNegativeValue()
 }
 
 function bgColor() {
-    document.getElementById("principal").style.backgroundColor = "yellow";
+    document.getElementById("result_years").style.backgroundColor = "yellow";
 }
 
         
