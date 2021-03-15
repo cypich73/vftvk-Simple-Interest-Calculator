@@ -34,10 +34,10 @@ function checkNegativeValue() {
   negnum = parseFloat(document.getElementById("principal").value);
   if (negnum < 0 || negnum == 0) {
    alert("Enter a positive number");
-   return false;
-  }
    clearInputs();
-  
+  }
+   
+  return false;
   
 }
 
