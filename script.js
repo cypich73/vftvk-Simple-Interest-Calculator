@@ -35,6 +35,7 @@ function checkNegativeValue() {
   if (negnum < 0 || negnum == 0)
   {
    alert("Enter a positive number");
+   clearInputs();
    return false;
   }
 }
