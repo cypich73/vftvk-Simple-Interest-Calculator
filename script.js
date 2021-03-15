@@ -35,15 +35,13 @@ function checkNegativeValue() {
     if (negnum < 0 || negnum == 0) {
         alert("Enter a positive number");
         return false;
-        clearInputs();
+        
     }
 
-    if(characterCode == 13) {
-        return false; // returning false will prevent the event from bubbling up.
+    if(characterCode == 127) {
+        clearInputs();
     }
-    else
-    {
-    return true;
+    
 }
 
   
