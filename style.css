@@ -48,10 +48,10 @@ button {
     padding-right: 5px;
 }
 
-#result_years {
+#result, #result_years {
     background-color: yellow;
 }
 
-#principal_no {
+#principal_no, #rangeInput_no {
     background-color: yellow;
 }

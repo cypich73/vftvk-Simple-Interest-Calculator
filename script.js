@@ -12,8 +12,12 @@ function compute() {
 
     document.getElementById("principal_text").innerHTML="If you deposit ";
     document.getElementById("principal_no").innerHTML=p;
-    document.getElementById("principal_text").innerHTML=",";
-    document.getElementById("rangeInput_text").innerHTML="at an interest rate of " + r + "%.";
+    document.getElementById("principal_end").innerHTML=",";
+
+    document.getElementById("rangeInput_text").innerHTML="at an interest rate of ";
+    document.getElementById("rangeInput_no").innerHTML=r;
+    document.getElementById("rangeInput_end").innerHTML="%.";
+
     document.getElementById("result_text").innerHTML="You will receive the amount of ";
     document.getElementById("result_comma").innerHTML=",";
     document.getElementById("years_text").innerHTML="in the year ";
