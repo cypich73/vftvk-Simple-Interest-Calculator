@@ -28,8 +28,5 @@ function checkNegativeValue()
   }
 }
 
-function bgColor() {
-    document.getElementById("result_years").style.backgroundColor = "yellow";
-}
 
         
