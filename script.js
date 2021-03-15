@@ -27,9 +27,9 @@ function compute() {
 function checkNegativeValue()
 {
   negnum = document.getElementById("principal").value;
-  if(negnum<0)
+  if (negnum <= 0)
   {
-   alert("Negative Value is not allowed");
+   alert("Enter a positive number");
    return false;
   }
 }
