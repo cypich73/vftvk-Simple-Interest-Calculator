@@ -37,9 +37,7 @@ function checkNegativeValue() {
         return false;
         
     }
-
-    if(characterCode == 127) {
-        clearInputs();
+    clearInputs();
     }
     
 }
