@@ -10,8 +10,9 @@ function compute() {
     x = parseInt(y)
     document.getElementById("result_years").innerHTML = z+x;
 
-    document.getElementById("principal_text").innerHTML="If you deposit " + ",";
+    document.getElementById("principal_text").innerHTML="If you deposit ";
     document.getElementById("principal_no").innerHTML=p;
+    document.getElementById("principal_text").innerHTML=",";
     document.getElementById("rangeInput_text").innerHTML="at an interest rate of " + r + "%.";
     document.getElementById("result_text").innerHTML="You will receive the amount of ";
     document.getElementById("result_comma").innerHTML=",";
