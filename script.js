@@ -24,9 +24,8 @@ function compute() {
 
 }
 
-function checkNegativeValue()
-{
-  negnum = document.getElementById("principal").value;
+function checkNegativeValue() {
+  negnum = parseFloat(document.getElementById("principal").value);
   if (negnum < 0 || negnum == 0)
   {
    alert("Enter a positive number");
@@ -35,4 +34,4 @@ function checkNegativeValue()
 }
 
 
-        
+       
