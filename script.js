@@ -34,13 +34,13 @@ function checkNegativeValue() {
 
         negnum = parseFloat(document.getElementById("principal").value);
         if (negnum < 0 || negnum == 0) {
-            clearInputs();
+            //clearInputs();
             alert("Enter a positive number");
             return false;
-            
         }
-    
-    
+        if (characterCode == 127) {
+            clearInputs();
+        }
 }
 
 
