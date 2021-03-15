@@ -2,6 +2,12 @@ function compute() {
     event.preventDefault();
     
     p = document.getElementById("principal").value;
+
+    if (p < 0 || p == 0)
+  {
+   alert("Enter a positive number");
+   return false;
+  }
     r = document.getElementById("rangeInput").value;
     y = document.getElementById("years").value;
     document.getElementById("result").innerHTML = p * r/100 * y;
