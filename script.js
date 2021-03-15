@@ -37,7 +37,6 @@ function checkNegativeValue() {
             alert("Enter a positive number");
             return false;
         }
-        document.getElementById("principal").reset();
         
 }
 
