@@ -38,7 +38,7 @@ function checkNegativeValue() {
             return false;
         }
         document.getElementById("principal").reset();
-        }
+        
 }
 
 
